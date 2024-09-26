@@ -1,11 +1,8 @@
 {
     "name": "small-tween",
     "version": "1.0.0",
-    "description": "fork from @tween/tween.js(v25.0.0), and rebuild with tsup.",
-    "keywords": [
-        "axios",
-        "plugins"
-    ],
+    "description": "Forked from @tween/tween.js, refactored and minified the package. (13k->6.9k)",
+    "keywords": [],
     "license": "MIT",
     "author": {
         "name": "halo951",
@@ -13,10 +10,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/halo951/axios-plugins.git"
+        "url": "https://github.com/halo951/small-tween.git"
     },
     "bugs": {
-        "url": "https://github.com/halo951/axios-plugins/issues"
+        "url": "https://github.com/halo951/small-tween/issues"
     },
     "sideEffects": false,
     "files": [

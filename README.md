@@ -13,6 +13,10 @@
 
 ## 精简后体积
 
+-   原始包体积: 13k
+-   默认引用(`small-tween`) : 8.5k
+-   极简(`small-tween/mini`) (注: 不支持 group): 6.9k
+
 ## Usage
 
 ### Install
