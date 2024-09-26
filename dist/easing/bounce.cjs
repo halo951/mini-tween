@@ -1,0 +1,1 @@
+"use strict";const Bounce=Object.freeze({In(t){return 1-Bounce.Out(1-t)},Out(t){return t<.36363636363636365?7.5625*t*t:t<.7272727272727273?7.5625*(t-=.5454545454545454)*t+.75:t<.9090909090909091?7.5625*(t-=.8181818181818182)*t+.9375:7.5625*(t-=.9545454545454546)*t+.984375},InOut(t){return t<.5?Bounce.In(t*2)*.5:Bounce.Out(t*2-1)*.5+.5}});exports.Bounce=Bounce;

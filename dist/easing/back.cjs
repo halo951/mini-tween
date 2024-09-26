@@ -1,0 +1,1 @@
+"use strict";const Back=Object.freeze({In(t){return t===1?1:t*t*(2.70158*t-1.70158)},Out(t){return t===0?0:--t*t*(2.70158*t+1.70158)+1},InOut(t){const e=2.5949095;return(t*=2)<1?.5*(t*t*((e+1)*t-e)):.5*((t-=2)*t*((e+1)*t+e)+2)}});exports.Back=Back;

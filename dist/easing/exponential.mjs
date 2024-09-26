@@ -1,0 +1,1 @@
+const e=Object.freeze({In(t){return t===0?0:Math.pow(1024,t-1)},Out(t){return t===1?1:1-Math.pow(2,-10*t)},InOut(t){return t===0?0:t===1?1:(t*=2)<1?.5*Math.pow(1024,t-1):.5*(-Math.pow(2,-10*(t-1))+2)}});export{e as Exponential};

@@ -1,0 +1,1 @@
+const l=(()=>{const e=[1];return t=>{let o=1;if(e[t])return e[t];for(let n=t;n>1;n--)o*=n;return e[t]=o,o}})(),c=(e,t)=>l(e)/l(t)/l(e-t),s=(e,t)=>{let o=0;const n=e.length-1,u=Math.pow;for(let r=0;r<=n;r++)o+=u(1-t,n-r)*u(t,r)*e[r]*c(n,r);return o};export{s as Bezier};

@@ -1,0 +1,1 @@
+const n=Object.freeze({In(e){return e===1?1:e*e*(2.70158*e-1.70158)},Out(e){return e===0?0:--e*e*(2.70158*e+1.70158)+1},InOut(e){const t=2.5949095;return(e*=2)<1?.5*(e*e*((t+1)*e-t)):.5*((e-=2)*e*((t+1)*e+t)+2)}});export{n as Back};
