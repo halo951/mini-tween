@@ -6,7 +6,6 @@
  * See https://github.com/tweenjs/tween.js/graphs/contributors for the full list of contributors.
  * Thank you all, you're awesome!
  */
-export { Tween } from './tween-mini'
-
-export * as Easing from './easing'
-export * as Interpolation from './interpolation'
+export { Tween } from './tween-mini';
+export * as Easing from './easing';
+export * as Interpolation from './interpolation';
