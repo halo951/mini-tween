@@ -1,6 +1,6 @@
 {
     "name": "tween-mp",
-    "version": "1.0.0",
+    "version": "1.0.0-r1",
     "description": "@tween/tween.js animation engine in miniprogram.",
     "keywords": [
         "@tween/tween.js",
